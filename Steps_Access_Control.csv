@@ -1,0 +1,171 @@
+Step,Description,SAS_Studio_Basic,SAS_Studio_Analyst,SAS_Studio_Engineer,SAS_Visual_Text_Analytics,SAS_Intelligent_Decisioning,SAS_Visual_Statistics,SAS_QC,SAS_Model_Manager,SAS_Econometrics,SAS_Optimization,SAS_Visual_Machine_Learning,SAS_Visual_Forecasting
+Custom Steps,Enables you to create a user interface for users at your site to complete a specific task.,1,1,1,0,0,0,0,0,0,0,0,0
+Export,Exports data to an external file.,1,1,1,0,0,0,0,0,0,0,0,0
+File,References an external file.,1,1,1,0,0,0,0,0,0,0,0,0
+Geocode Data,Provides a way to convert address data into map locations,1,1,1,0,0,0,0,0,0,0,0,0
+Import Files,Converts an external file to a SAS data set. Supports importing delimited and Microsoft Excel files. Supports importing fixed width files and the ability to load column structure metadata from an external file.,1,1,1,0,0,0,0,0,0,0,0,0
+Manage Columns,Selects a subset of columns from an input table and writes the columns to an output table.,1,1,1,0,0,0,0,0,0,0,0,0
+Python Program,Supports writing and running Python programs in a flow.,1,1,1,0,0,0,0,0,0,0,0,0
+Query,Extracts data from one or more tables according to criteria that you specify.,1,1,1,0,0,0,0,0,0,0,0,0
+Remove Duplicates,Enables you to remove duplicate rows from a source table.,1,1,1,0,0,0,0,0,0,0,0,0
+SAS Program,Supports writing and running SAS programs in a flow.,1,1,1,0,0,0,0,0,0,0,0,0
+Sort,Enables you to order your data by the values of one or more columns.,1,1,1,0,0,0,0,0,0,0,0,0
+Table,References a source table or specifies the physical location of an output table.,1,1,1,0,0,0,0,0,0,0,0,0
+Verify with Loqate,Enables you to verify address information and obtain geocode coordinates from the Loqate Verify Address API.,1,1,1,0,0,0,0,0,0,0,0,0
+Analysis of Covariance,Fits a linear model that combines the continuous and categorical predictors of a continuous dependent variable. This step also produces graphical output to interpret the results.,0,1,1,0,0,1,0,0,0,0,0,0
+Analysis of Means,Enables you to create control charts that simultaneously compare treatment means with their overall mean.,0,1,1,0,0,0,1,0,0,0,0,0
+Automated Feature Engineering,"Explores the variables in the input data and automatically performs feature engineering in a parallel, scalable way.",0,1,1,0,0,0,0,0,0,0,1,0
+Assess Model,Evaluates the performance of a predictive model by comparing the predicted and actual target values in a scored data set.,0,1,1,0,0,0,0,0,0,0,1,0
+Bar Chart,Creates horizontal or vertical bar charts that compare numeric values or statistics between different values of a chart variable.,0,1,1,0,0,0,0,0,0,0,0,0
+Bar-Line Chart,Creates a vertical bar chart with a line chart overlay.,0,1,1,0,0,0,0,0,0,0,0,0
+Bayesian Network,"Trains a predictive model of a nominal target using different types of Bayesian network structures, including parent-child Bayesian network (default), Markov blanket, naive Bayesian network, or tree-augmented naive Bayesian network.",0,1,1,0,0,0,0,0,0,0,1,0
+Biconnected Components,Finds all biconnected components of an undirected graph. A biconnected component of an undirected graph is a connected subgraph that cannot be broken into disconnected pieces by deleting any single node (and its incident links).,0,1,1,0,0,0,0,0,0,1,0,0
+Binning,Divides the data values of a continuous variable into intervals. The values for each interval are replaced with a single value that is representative of the interval.,0,1,1,0,0,0,0,0,0,0,0,0
+Boolean Rules,The Boolean Rules step extracts Boolean rules from text data.,0,1,1,1,0,0,0,0,0,0,0,0
+Box Plot,Creates a bi-directional plot where the numeric values measured as intervals.,0,1,1,0,0,0,0,0,0,0,0,0
+Branch Rows,Splits a table into two output tables based on conditions that you specify.,0,1,1,0,0,0,0,0,0,0,0,0
+Bubble Map,Creates a map that is overlaid with a bubble plot.,0,1,1,0,0,0,0,0,0,0,0,0
+Bubble Plot,"Explores the relationship between three or more variables. In a bubble plot, two variables determine the location of the bubble centers, and a third variable specifies the size of each bubble. A fourth variable can be used to determine the colors of the bubbles.",0,1,1,0,0,0,0,0,0,0,0,0
+Calculate Columns,Creates an output table that is based on the input table. You can create or modify columns in the output table.,0,1,1,0,0,0,0,0,0,0,0,0
+Canonical Correlation,"Performs canonical correlation, partial canonical correlation, and canonical redundancy analysis.",0,1,1,0,0,1,0,0,0,0,0,0
+Capability Analysis,Compares the distribution of a process to its specification limits.,0,1,1,0,0,0,1,0,0,0,0,0
+Causal Models,Uses the two-stage least squares method and the Heckman's two-step selection method.,0,1,1,0,0,0,0,0,1,0,0,0
+Centrality Metrics,Calculates several types of centrality metrics that indicate the relative importance of a node or link within a graph.,0,1,1,0,0,0,0,0,0,1,0,0
+Characterize Data,Creates a summary report of tables and graphs that describe the variables in the input data set. This step can also create frequency and univariate output table that describe the main characteristics of the data.,0,1,1,0,0,0,0,0,0,0,0,0
+Choropleth Map,Creates a map of polygonal areas,0,1,1,0,0,0,0,0,0,0,0,0
+Cluster Variables,Finds clusters of variables to use in additional clustering or to select non-redundant variables in further clustering.,0,1,1,0,0,1,0,0,0,0,0,0
+Coin Toss Simulation,Simulates the tossing of a specified number of coins. The results show the frequency and percentage of occurrences that the coin displays heads given a specified number of tosses.,0,1,1,0,0,1,0,0,0,0,0,0
+Combinations,Computes the possible combinations of the total number of objects into sets with a specified number in each set.,0,1,1,0,0,1,0,0,0,0,0,0
+Community Detection,Partitions a graph into communities such that the nodes within the community subgraphs are more densely connected than the nodes from different communities.,0,1,1,0,0,0,0,0,0,1,0,0
+Compute Similarities and Distances,"Computes various measures of distance, dissimilarity, or similarity between observations in an input table.",0,1,1,0,0,1,0,0,0,0,0,0
+Connected Components,Finds all the connected components in a graph. A connected component in a graph is a set of nodes that have a path between them.,0,1,1,0,0,0,0,0,0,1,0,0
+Control Charts,Creates Shewhart control charts for deciding whether a process is in a state of statistical control.,0,1,1,0,0,0,1,0,0,0,0,0
+Core Decomposition,Decomposes a graph into cohesive subgroups.,0,1,1,0,0,0,0,0,0,1,0,0
+Correlation Analysis,Provides graphs and statistics for investigating associations among variables.,0,1,1,0,0,1,0,0,0,0,0,0
+Correspondence Analysis,Performs simple or multiple correspondence analysis of qualitative data. You can specify either raw data or table data for the input data source.,0,1,1,0,0,1,0,0,0,0,0,0
+Cycle Detection,Finds the elementary cycles of an input graph.,0,1,1,0,0,0,0,0,0,1,0,0
+Decision Tree,Produces tree-based statistical models called decision trees for nominal and interval targets.,0,1,1,0,0,1,0,0,0,0,0,0
+Describe Missing Data,"Displays the frequencies and percentages of missing values for each selected variable. If two or more variables are assigned to this step, the step displays the pattern of missing data across variables.",0,1,1,0,0,0,0,0,0,0,0,0
+Dice Roll Simulation,Simulates rolling a specified number of dice. The results show the frequency and percentage of each possible roll given a specified number of throws.,0,1,1,0,0,1,0,0,0,0,0,0
+Distribution Analysis,"Provides information about the distribution of numeric variables. A variety of plots such as histograms, probability plots, and quantile-quantile plots can be used in this analysis.",0,1,1,0,0,1,0,0,0,0,0,0
+Estimate Within-Cluster Covariances,"Uses the Art, Gnanadesikan, and Kettenring method to estimate within-cluster covariances. This approach might result in more spherical clusters when the resulting canonical variables are clustered.",0,1,1,0,0,0,0,0,0,0,0,0
+Equivalence Tests Stastical Power,"Performs power analysis and sample size determination for equivalence tests of one-sample mean, paired means, two-sample means, and one proportion.",0,1,1,0,0,1,0,0,0,0,0,0
+Explore Data,Provides graphs that can be used to explore the relationships among selected variables.,0,1,1,0,0,0,0,0,0,0,0,0
+Factor Analysis,Performs a factor analysis with a variety of available methods and rotations.,0,1,1,0,0,1,0,0,0,0,0,0
+Factorization Machine,Combines the advantages of smart machine vision (SMV) with factorization models.,0,1,1,0,0,0,0,0,0,0,1,0
+Fast k-Nearest Neighbors,Searches for the k-nearest neighbors (KNN) of the specified data.,0,1,1,0,0,0,0,0,0,0,1,0
+Filter Rows,Selects a subset of rows from an input table and writes the rows to an output table.,0,1,1,0,0,0,0,0,0,0,0,0
+Forest,Produces an ensemble of tree-based statistical models called decision trees for interval or nominal targets. It uses the Random Forest approach.,0,1,1,0,0,0,0,0,0,0,1,0
+Heat Map,Displays the magnitude of the response based on two variables. The response is represented as a color value from a color gradient.,0,1,1,0,0,0,0,0,0,0,0,0
+Hidden Markov Models,Analyzes the time series or panel data by using a statistical Markov model to infer hidden states through a Markov process.,0,1,1,0,0,0,0,0,1,0,0,0
+Histogram,Creates a chart that displays the frequency distribution of a numeric variable.,0,1,1,0,0,0,0,0,0,0,0,0
+Imputation,Replaces missing values in a data source with an estimate of the missing value.,0,1,1,0,0,0,0,0,0,0,0,0
+Insert Rows,Inserts the rows from an input table into an output table.,0,1,1,0,0,0,0,0,0,0,0,0
+Line Chart,Shows the mathematical relationships between variables by revealing trends or patterns of data points.,0,1,1,0,0,0,0,0,0,0,0,0
+Linear Assignment,Assigns any objects from one group to objects in a second group at minimal costs.,0,1,1,0,0,0,0,0,0,1,0,0
+Linear Regression,Performs linear regression analysis on multiple dependent and independent variables.,0,1,1,0,0,1,0,0,0,0,0,0
+List Data,Displays the contents of a table as a report,0,1,1,0,0,0,0,0,0,0,0,0
+List Table Attributes,"Enables you to quickly see the date on which the table was created and last modified, the number of rows, the encoding, any engine-dependent or host-dependent information, and an alphabetic list of the variables and their attributes.",0,1,1,0,0,0,0,0,0,0,0,0
+Mask Data,"Enables you to perform data masking using three different obfuscation methods: masking, hashing, or substitution",0,1,1,0,0,0,0,0,0,0,0,0
+Maximal Cliques,Finds the maximal cliques of a graph. A clique is an induced subgraph such that every node in that subgraph is connected to every other node. A maximal clique is a clique that is not a subset of the nodes of any larger clique.,0,1,1,0,0,0,0,0,0,1,0,0
+Minimum Cost Network Flow,"Performs the minimum cost network flow (MCF) problem, which is a fundamental problem in network analysis that involves sending flow over a network at minimal cost.",0,1,1,0,0,0,0,0,0,1,0,0
+Minimum Cut,Finds a minimum cut of an undirected graph that has the smallest link metric. A cut is a partition of the nodes of a graph into two disjoint subsets.,0,1,1,0,0,0,0,0,0,1,0,0
+Minimum Spanning Tree,"Finds the spanning tree, among all possible spanning trees, that has the minimum link cost. A spanning tree of a connected undirected graph is a subgraph that is a tree that connects all the nodes.",0,1,1,0,0,0,0,0,0,1,0,0
+Mosaic Plot,"Display tiles that correspond to the crosstabulation table cells. The areas of the tiles are proportional to the frequencies of the table cells. The column variable is displayed on the X axis, and the tile widths are proportional to the relative frequencies of the column variable levels. The row variable is displayed on the Y axis, and the tile heights are proportional to the relative frequencies of the row levels within column levels.",0,1,1,0,0,0,0,0,0,0,0,0
+Multidimensional Preference Analysis,Performs a principal components analysis of rank-ordered data. The principal result is a plot of the scores.,0,1,1,0,0,1,0,0,0,0,0,0
+Multiple Regression Statistical Power,Calculates the power or sample size for multiple regression.,0,1,1,0,0,1,0,0,0,0,0,0
+Pearson Correlation Statistical Power,Performs power and sample size analyses for tests of simple and partial Pearson correlation between two variables. Both Fisher's z transformation and the t transformation are supported.,0,1,1,0,0,1,0,0,0,0,0,0
+Moving Window Principal Component Analysis,Assesses how principal components change over time,0,1,1,0,0,0,0,0,0,0,1,0
+Network Summary,Calculates various summary statistics for a graph and its nodes.,0,1,1,0,0,0,0,0,0,1,0,0
+Nonparametric One-Way ANOVA,Consists of nonparametric tests for location and scale differences across a one-way classification. The step also provides a standard analysis of variance on the raw data and statistics based on the empirical distribution function.,0,1,1,0,0,1,0,0,0,0,0,0
+One-Way ANOVA,Tests and provides graphs for differences among the means of a single categorical variable on a single continuous dependent variable.,0,1,1,0,0,1,0,0,0,0,0,0
+One-Way Frequencies,Generates frequency tables from your data. You can also use this step to perform binomial and chi-square tests.,0,1,1,0,0,1,0,0,0,0,0,0
+Pareto Analysis,Displays the frequencies of quality-related problems in a process. The frequencies are represented by bars that are ordered in decreasing magnitude.,0,1,1,0,0,0,1,0,0,0,0,0
+Permutations,Computes the possible permutations of a given number of objects.,0,1,1,0,0,1,0,0,0,0,0,0
+Pie Chart,Creates pie charts that represent the relative contribution of the parts to the whole by displaying data as wedge-shaped 'slices' of a circle. Each slice represents a category of data. The size of a slice represents the contribution of the data to the total chart statistic.,0,1,1,0,0,0,0,0,0,0,0,0
+Poker Hand Probability,Calculates the frequency and probability of poker hands.,0,1,1,0,0,1,0,0,0,0,0,0
+Robust Principal Component Analysis,Summarizes data and detects linear relationships.,0,1,1,0,0,1,0,0,0,0,0,0
+Rank Data,Computes ranks for one or more numeric variables across the rows in a table and includes the ranks in an output table.,0,1,1,0,0,0,0,0,0,0,0,0
+Reach Network,Calculates the reach (ego) network of a graph.,0,1,1,0,0,0,0,0,0,1,0,0
+Register Python Model,Registers into SAS Model Manager any Python models that have been trained in SAS Studio.,0,1,1,0,0,0,0,1,0,0,0,0
+Register SAS Model,Imports a scoring model from SAS Studio into SAS Model Manager. A scoring model is an analytic object in a CAS table.,0,1,1,0,0,0,0,1,0,0,0,0
+Same Birthday Probability,Computes the probability that two or more people in a room have the same birthday.,0,1,1,0,0,1,0,0,0,0,0,0
+Scatter Map,Creates a map that is overlaid with a scatter plot.,0,1,1,0,0,0,0,0,0,0,0,0
+Scatter Plot,Creates plots that show the relationships between two or three variables by revealing patterns or concentrations of data points,0,1,1,0,0,0,0,0,0,0,0,0
+Segmentation,Segments text data using k-means clustering.,0,1,1,1,0,0,0,0,0,0,0,0
+Select Random Sample,Creates an output table that contains a random sample of the rows in the input table.,0,1,1,0,0,0,0,0,0,0,0,0
+Semi-supervised Learning,Iteratively propagates the labels from the labeled data to the unlabeled data by computing the similarity measure between pairs of data.,0,1,1,0,0,0,0,0,0,0,1,0
+Series Map,Creates a map overlaid with series plot.,0,1,1,0,0,0,0,0,0,0,0,0
+Series Plot,Creates plots that display a series of line segments that connect observations of input data.,0,1,1,0,0,0,0,0,0,0,0,0
+Shortest Paths,Calculates paths between sets of nodes in the input graph with the lowest total link weight.,0,1,1,0,0,0,0,0,0,1,0,0
+Split Columns,Creates an output table by splitting the unique combination of values of the selected columns in the input table into multiple columns.,0,1,1,0,0,0,0,0,0,0,0,0
+Stack Columns,Creates an output table by restructuring the selected columns in the input table so that these columns are transposed into observations.,0,1,1,0,0,0,0,0,0,0,0,0
+Standardize Data,Enables you to center or standardize one or more numeric variables using a variety of methods.,0,1,1,0,0,0,0,0,0,0,0,0
+Summary and Level Statistics,Computes level and descriptive statistics for variables in a data source.,0,1,1,0,0,1,0,0,0,0,0,0
+Summary Statistics,Provides descriptive statistics for variables across all observations and within groups of observations. You can also summarize your data in a graphical display such as histograms and box plots.,0,1,1,0,0,1,0,0,0,0,0,0
+Summary Tables,"Displays descriptive statistics in tabular format, using some or all of the variables in a data set. You can create a variety of tables, ranging from simple to highly customized.",0,1,1,0,0,1,0,0,0,0,0,0
+Support Vector Data Description,Is a one-class classification machine learning technique.,0,1,1,0,0,0,0,0,0,0,0,0
+Support Vector Machine,"Performs classification analysis for binary targets by using a support vector machine, which is a supervised machine learning method.",0,1,1,0,0,0,0,0,0,0,1,0
+t Tests,"Enables you to perform a one-sample test, a paired test, or a two-sample test.",0,1,1,0,0,1,0,0,0,0,0,0
+Table Analysis,Provides one-way to n-way frequency and contingency (crosstabulation) tables. This task also generates statistics about the association between rows and columns.,0,1,1,0,0,1,0,0,0,0,0,0
+Text Map,Creates a map that is overlaid with a text scatter plot.,0,1,1,0,0,0,0,0,0,0,0,0
+Text Parsing and Topic Discovery,Parses documents into a term-by-document matrix and extracts topics from the term-by-document matrix.,0,1,1,1,0,0,0,0,0,0,0,0
+Text Scoring,Scores a data table using tables generated by another Text Analytics step.,0,1,1,1,0,0,0,0,0,0,0,0
+Text Summarization,Generates textual summaries of text data.,0,1,1,1,0,0,0,0,0,0,0,0
+Transform Data,Transforms one or more variables in the input data set. These transformed variables are saved to an output data set.,0,1,1,0,0,0,0,0,0,0,0,0
+Transitive Closure,Calculates the transitive closure of a graph.,0,1,1,0,0,0,0,0,0,1,0,0
+Transpose Data,Turns selected columns of an input table into the rows of an output table.,0,1,1,0,0,0,0,0,0,0,0,0
+Traveling Salesman Problem,"Finds a minimum-cost tour in a graph. A tour of a graph is a sequence of nodes where the start node and end node are the same, and every node in the graph is visited exactly once. In solving the TSP, the goal is to find a tour that minimizes the costs of the links.",0,1,1,0,0,0,0,0,0,1,0,0
+Union Rows,Enables you to combine data from multiple sources into a single target table.,0,1,1,0,0,0,0,0,0,0,0,0
+Clean Data,"Performs Standardization, Casing, Identification Analysis, Gender Analysis, and Pattern Analysis using the QKB locale.",0,0,1,0,0,0,0,0,0,0,0,0
+Execute Decisions,Enables you to add a published decision from SAS Intelligent Decisioning to a flow.,0,0,1,0,1,0,0,0,0,0,0,0
+Implement SCD,Enables you to use the slowly changing dimensions (SCD) process to load data into target dimension tables.,0,0,1,0,0,0,0,0,0,0,0,0
+Load Table,"Enables you to load a source table into a target table. You can apply insert, update or both techniques as well as to create a new table.",0,0,1,0,0,0,0,0,0,0,0,0
+Lookup,"Enables you to add information to your data by looking up data values in reference, or lookup, tables. You can add the lookup data, along with data from a source table, to a target table.",0,0,1,0,0,0,0,0,0,0,0,0
+Match Codes,Enables you to create match codes that can be used as a basis for standardization or transformation.,0,0,1,0,0,0,0,0,0,0,0,0
+Merge Table,Enables you to make changes to columns in a target table based on values from a source table. The source and target tables must be DBMS tables that support ANSI SQL standards. The Merge Table step combines update and insert operations in one step and supports only in-database processing.,0,0,1,0,0,0,0,0,0,0,0,0
+Parse Data,Performs Parsing and Extraction using the QKB locale.,0,0,1,0,0,0,0,0,0,0,0,0
+Recode Values,"The Recode Values step enables you to change the values of character and numeric variables. With this step, you can specify single values to be recoded as other values of the same type",0,1,1,0,0,0,0,0,0,0,0,0
+Hierarchical Clustering,The Hierarchical Clustering step enables you to perform hierarchical cluster analysis. The Hierarchical Clustering step can be used with either coordinate data or distance data,0,1,1,0,0,1,0,0,0,0,0,0
+K-Means Clustering,The K-Means Clustering step enables you to cluster interval or ratio data using the k-means algorithm. This step is a good starting point for cluster analysis,0,1,1,0,0,1,0,0,0,0,0,0
+Aggregate Loss Models,The Aggregate Loss Models step computes an estimate of the probability distribution model of the aggregate loss. This estimate is based on the knowledge of the distribution of loss severity and loss count,0,1,1,0,0,0,0,0,1,0,0,0
+Cox Regression Statistical Power,Calculate power or sample size for the score test of a single scalar predictor in Cox proportional hazards regression for survival data.,0,1,1,0,0,1,0,0,0,0,0,0
+t Tests Statistical Power,Calculate power or sample size for t tests of means and mean ratios,0,1,1,0,0,1,0,0,0,0,0,0
+Custom Tests Statistical Power,"The Custom Tests Statistical Power step calculates power or sample size for test statistics from the chi-square, Pearson correlation, normal, F and t distributions.",0,1,1,0,0,1,0,0,0,0,0,0
+Survival Rank Tests,"The Survival Rank Tests step calculates power, sample size, or number of events for two-sample survival rank tests.",0,1,1,0,0,1,0,0,0,0,0,0
+Recode Ranges,The Recode Ranges task enables you to specify a range of numeric values and change all of the values in the range to another value.,0,1,1,0,0,0,0,0,0,0,0,0
+Label Encoding,The Label Encoding step converts low cardinality categorical variables into a sparse label encoded representation.,0,1,1,0,0,0,0,0,0,0,0,0
+Confidence Intervals Statistical Power,"The Confidence Intervals Statistical Power step calculates the power or sample size for these confidence intervals: one-sample means, paired means, two-sample means, and one proportion",0,1,1,0,0,1,0,0,0,0,0,0
+Gradient Boosting,The Gradient Boosting step produces an ensemble of tree-based statistical models called decision trees for interval or nominal targets. It uses the gradient boosting approach,0,1,1,0,0,0,0,0,0,0,1,0
+ANOVA Statistical Power,The ANOVA Statistical Power step calculates power and sample size analyses for one degree of freedom contrasts and the overall F test,0,1,1,0,0,1,0,0,0,0,0,0
+Logistic Regression,The Logistic Regression step fits predictive models by using logistic regression of a binary response and automated model selection and validation,0,1,1,0,0,1,0,0,0,0,0,0
+Panel Data Models,The Panel Data Models step enables you to run analyses for a variety of model types. You can analyze a class of linear econometric models that commonly arise when time series and cross-sectional data is combined. This type of pooled data on time series cross-sectional bases is often referred to as panel data. This step also handles cross-sectional data (data without the time ID values),0,1,1,0,0,0,0,0,1,0,0,0
+Spatial Regression Models,The Spatial Regression Models step analyzes a class of linear spatial econometric models for cross-sectional data whose observations are spatially referenced or georeferenced,0,1,1,0,0,0,0,0,1,0,0,0
+Partition Data,"The Partition Data step enables you to create up to four partitions that are created by randomly sampling the input data. Partitions can be used to develop a model. In this case, you want to train the model on part of the data and reserve some of the data for testing. Using the Partition Data step, you can save all the partitions to one output data set or save each partition in a separate table",0,1,1,0,0,1,0,0,0,0,0,0
+Unique Identifier,The Unique Identifier step returns a Universally Unique Identifier (UUID) as a string of 36 hexadecimal characters and hyphens or a binary value of 16 bytes,0,1,1,0,0,0,0,0,0,0,0,0
+Quantile Regression,The Quantile Regression step fits predictive models by using quantile regression with automated model selection,0,1,1,0,0,1,0,0,0,0,0,0
+Tests of Proportions Statistical Power,"Power and sample size analysis optimizes the resource usage and design of a study, which improves the chances of conclusive results with maximum efficiency",0,1,1,0,0,1,0,0,0,0,0,0
+Discriminant Analysis,"For a set of observations with one or more quantitative variables and a classification variable, the Discriminant Analysis step develops a discriminant criterion to classify each observation into a group. The derived discriminant criterion from this data set can be applied to a second data set during the same run",0,1,1,0,0,1,0,0,0,0,0,0
+Logistic Regression Statistical Power,The Logistic Regression Statistical Power step calculates power and sample size analyses for the likelihood ratio chi-square test of a single predictor in binary logistic regression. This calculation possibly occurs in the presence of one or more covariates that might be correlated with the tested predictor,0,1,1,0,0,1,0,0,0,0,0,0
+Nonparametric Survival Analysis,The Nonparametric Survival Analysis step computes nonparametric estimates of the survival distribution function and compares survival functions of two or more groups,0,1,1,0,0,1,0,0,0,0,0,0
+Partial Least Squares Regression,The Partial Least Squares Regression step performs partial least squares analysis. It also performs principal components regression and reduced rank regression. These techniques combine dimension reduction of the predictors and dependent variables with predictive modeling,0,1,1,0,0,1,0,0,0,0,0,0
+Predictive Regression Models,"The step is predictive in that it selects the most influential effects based on observed data. This step enables you to logically partition your data into disjoint subsets for model training, validation, and testing. The Predictive Regression Models step focuses on the standard independently and identically distributed general linear model for univariate responses and offers great flexibility and insight into the model selection algorithm",0,1,1,0,0,1,0,0,0,0,0,0
+Wilcoxon Test Statistical Power,The Wilcoxon Statistical Power step calculates power and sample size analyses for the Wilcoxon-Mann-Whitney test for two independent groups,0,1,1,0,0,1,0,0,0,0,0,0
+Severity Models,The Severity Models step estimates parameters of any arbitrary continuous probability distribution that is used to model the magnitude (severity) of a continuous-valued event of interest,0,1,1,0,0,0,0,0,1,0,0,0
+Market Basket Analysis,The Market Basket Analysis step performs association rule mining on a transaction data set,0,1,1,0,0,0,0,0,0,0,1,0
+Variable Selection,The Variable Selection step enables you to perform unsupervised and supervised variable selection. The task identifies a set of variables that explain the maximum amount of data variance that is contained in the target variable or the data source,0,1,1,0,0,1,0,0,0,0,0,0
+N-Way ANOVA,"The N-way ANOVA step tests and provides graphs for effects of one or more factors on the means of a single, continuous dependent variable",0,1,1,0,0,1,0,0,0,0,0,0
+Multivariate Time Series Analysis,The Multivariate Time Series Analysis step analyzes a vector of time series that are equally spaced,0,1,1,0,0,0,0,0,1,0,0,0
+Modeling And Forecasting,The Modeling and Forecasting step creates forecasting models that use your time series data. This step requires data in a valid time series format,0,1,1,0,0,0,0,0,0,0,0,1
+Motif Discovery,The Motif Discovery step provides methods to discover frequent patterns or repeated subsequences in time series data,0,1,1,0,0,0,0,0,0,0,0,1
+Motif Scoring,The Motif Scoring step tries to find subsequences that are most similar to the target sequence in a new time series,0,1,1,0,0,0,0,0,0,0,0,1
+Similarity Analysis,The Similarity Analysis step provides methods to measure the similarity between two time series or among sequences in temporal data,0,1,1,0,0,0,0,0,0,0,0,1
+Generalized Linear Models,"The Generalized Linear Models step provides model fitting and model building for generalized linear models. It fits models for standard distributions such as Normal, Poisson, and Tweedie in the exponential family. This step also fits multinomial models for ordinal and nominal responses. The step provides forward, backward, and stepwise selection methods",0,1,1,0,0,1,0,0,0,0,0,0
+Cross-Sectional Data Models,The Cross-Sectional Data Models step applies econometric techniques to analyze cross-sectional data,0,1,1,0,0,0,0,0,1,0,0,0
+Univariate Time Series Analysis,"The Univariate Time Series Analysis step analyzes a single time series in which the values are equally spaced. This task provides analysis for these model types: ARIMA (autoregressive integrated moving average), ARIMAX, unobserved components, and regression with autocorrelated and heteroscedastic errors",0,1,1,0,0,0,0,0,1,0,0,0
+Subsequence Anomaly Detection,The Subsequence Anomaly Detection step is a motif-based technique that finds anomaly subsequences in a specified input sequence,0,1,1,0,0,0,0,0,0,0,0,1
+Sample Data,The Sample Data step performs simple or stratified random sampling or oversampling of the input data source,0,1,1,0,0,1,0,0,0,0,0,0
+Neural Network,The Neural Network step creates a multilayer perceptron neural network. You can create networks with up to 10 hidden layers,0,1,1,0,0,0,0,0,0,0,1,0
+Mixed Models,"The Mixed Models step fits a variety of mixed linear models to data and enables you to use these fitted models to make inferences about the data. A mixed linear model is a generalization of the standard linear model. The generalization is that the data is permitted to exhibit correlation and nonconstant variability. Therefore, the mixed linear model provides the flexibility to model the means of your data (as in the standard linear model) and also the variances and covariances",0,1,1,0,0,1,0,0,0,0,0,0
+Proportional Hazards Regression,"The Proportional Hazards Regression step fits proportional hazards regression models to survival data. These models include the widely used semi-parametric Cox regression model and its extensions, such as the shared frailty model and the Fine-Gray model. The step supports the analysis of data that might be left-censored, right-censored, or interval-censored",0,1,1,0,0,1,0,0,0,0,0,0
+Compare Data,"The Compare Data step compares two data sets or compares two variables within or across data sets",0,1,1,0,0,0,0,0,0,0,0,0
