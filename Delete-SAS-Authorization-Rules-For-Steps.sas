@@ -72,6 +72,7 @@
 %get_rules_for_group(SASDAIStudioNoOptimization)
 %get_rules_for_group(SASDAIStudioNoMachineLearning)
 %get_rules_for_group(SASDAIStudioNoForecasting)
+%get_rules_for_group(SASDAIStudioSAPIntegration)
 
 /*
 * Clean up;

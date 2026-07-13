@@ -40,6 +40,7 @@
 %delete_group(SASDAIStudioNoOptimization)
 %delete_group(SASDAIStudioNoMachineLearning)
 %delete_group(SASDAIStudioNoForecasting)
+%delete_group(SASDAIStudioNoSAPIntegration)
 
 /*
 * Clean up;
