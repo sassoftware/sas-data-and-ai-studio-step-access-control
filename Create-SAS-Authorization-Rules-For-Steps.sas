@@ -23,7 +23,7 @@
 * Specify where the csv it is located sasserver (File Server) vs sascontent (SAS Content);
 %let specifyLocation = sasserver;
 * Specify the path to the steps access control csv file;
-%let pathToAccessFile = /export/pvs/sasdata/homes/gerdaw/Data;
+%let pathToAccessFile = /export/pvs/Data;
 * Specify the file name;
 %let nameOfFile = Steps_Access_Control.csv;
 
@@ -158,65 +158,75 @@ title;
 data _null_;
     length args $256.;
 
-    set work.sas_steps_with_access(where=(SAS_Studio_Basic NE .));
+    set work.sas_steps_with_access(where=(SAS_DAI_Studio NE .));
 
     if _n_ EQ 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNone, /dataFlows/steps))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNone, /dataFlows/steps))';
         call execute(args);
     end;
 
-    if SAS_Studio_Basic eq 0 then do;
-        args = '%nrstr(%apply_rule(SASStudioBasic, /dataFlows/steps/' || id || '))';
+    if SAS_DAI_Studio eq 0 then do;
+        args = '%nrstr(%apply_rule(SASDAIStudio, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
-    if SAS_Studio_Analyst eq 0 then do;
-        args = '%nrstr(%apply_rule(SASStudioAnalyst, /dataFlows/steps/' || id || '))';
+    if SAS_DAI_Studio_Advanced eq 0 then do;
+        args = '%nrstr(%apply_rule(SASDAIStudioAdvanced, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
-    if SAS_Studio_Engineer eq 0 then do;
-        args = '%nrstr(%apply_rule(SASStudioEngineer, /dataFlows/steps/' || id || '))';
+    if SAS_DAI_Studio_Enterprise eq 0 then do;
+        args = '%nrstr(%apply_rule(SASDAIStudioEnterprise, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Visual_Text_Analytics eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoTextAnalytics, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoTextAnalytics, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Intelligent_Decisioning eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoDecisioning, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoDecisioning, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Visual_Statistics eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoStatistics, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoStatistics, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_QC eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoQC, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoQC, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Model_Manager eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoModelManager, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoModelManager, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Econometrics eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoEconometrics, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoEconometrics, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Optimization eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoOptimization, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoOptimization, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 
     if SAS_Visual_Machine_Learning eq 1 then do;
-        args = '%nrstr(%apply_rule(SASStudioNoMachineLearning, /dataFlows/steps/' || id || '))';
+        args = '%nrstr(%apply_rule(SASDAIStudioNoMachineLearning, /dataFlows/steps/' || id || '))';
+        call execute(args);
+    end;
+
+    if SAS_Visual_Forecasting eq 1 then do;
+        args = '%nrstr(%apply_rule(SASDAIStudioNoForecasting, /dataFlows/steps/' || id || '))';
+        call execute(args);
+    end;
+
+    if SAP_Integration eq 1 then do;
+        args = '%nrstr(%apply_rule(SASDAIStudioNoSAPIntegration, /dataFlows/steps/' || id || '))';
         call execute(args);
     end;
 run;

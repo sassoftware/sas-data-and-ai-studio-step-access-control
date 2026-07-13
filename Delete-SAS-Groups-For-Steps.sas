@@ -27,19 +27,19 @@
 
 %mend delete_group;
 
-%delete_group(SASStudioNone)
-%delete_group(SASStudioBasic)
-%delete_group(SASStudioAnalyst)
-%delete_group(SASStudioEngineer)
-%delete_group(SASStudioNoTextAnalytics)
-%delete_group(SASStudioNoDecisioning)
-%delete_group(SASStudioNoStatistics)
-%delete_group(SASStudioNoQC)
-%delete_group(SASStudioNoModelManager)
-%delete_group(SASStudioNoEconometrics)
-%delete_group(SASStudioNoOptimization)
-%delete_group(SASStudioNoMachineLearning)
-%delete_group(SASStudioNoForecasting)
+%delete_group(SASDAIStudioNone)
+%delete_group(SASDAIStudioBasic)
+%delete_group(SASDAIStudioAnalyst)
+%delete_group(SASDAIStudioEngineer)
+%delete_group(SASDAIStudioNoTextAnalytics)
+%delete_group(SASDAIStudioNoDecisioning)
+%delete_group(SASDAIStudioNoStatistics)
+%delete_group(SASDAIStudioNoQC)
+%delete_group(SASDAIStudioNoModelManager)
+%delete_group(SASDAIStudioNoEconometrics)
+%delete_group(SASDAIStudioNoOptimization)
+%delete_group(SASDAIStudioNoMachineLearning)
+%delete_group(SASDAIStudioNoForecasting)
 
 /*
 * Clean up;

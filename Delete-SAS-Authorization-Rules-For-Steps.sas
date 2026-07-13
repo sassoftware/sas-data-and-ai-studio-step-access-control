@@ -59,19 +59,19 @@
 * CHANGE GROUPS HERE;
 * If you decided to bring your own groups then change the argument in the get_rules_for_group macro calls to match the groups you want to use for the access control rules;
 * If you decided against implementing/using a specific group then please delete the corresponding macro call below;
-%get_rules_for_group(SASStudioNone)
-%get_rules_for_group(SASStudioBasic)
-%get_rules_for_group(SASStudioAnalyst)
-%get_rules_for_group(SASStudioEngineer)
-%get_rules_for_group(SASStudioNoTextAnalytics)
-%get_rules_for_group(SASStudioNoDecisioning)
-%get_rules_for_group(SASStudioNoStatistics)
-%get_rules_for_group(SASStudioNoQC)
-%get_rules_for_group(SASStudioNoModelManager)
-%get_rules_for_group(SASStudioNoEconometrics)
-%get_rules_for_group(SASStudioNoOptimization)
-%get_rules_for_group(SASStudioNoMachineLearning)
-%get_rules_for_group(SASStudioNoForecasting)
+%get_rules_for_group(SASDAIStudioNone)
+%get_rules_for_group(SASDAIStudioBasic)
+%get_rules_for_group(SASDAIStudioAnalyst)
+%get_rules_for_group(SASDAIStudioEngineer)
+%get_rules_for_group(SASDAIStudioNoTextAnalytics)
+%get_rules_for_group(SASDAIStudioNoDecisioning)
+%get_rules_for_group(SASDAIStudioNoStatistics)
+%get_rules_for_group(SASDAIStudioNoQC)
+%get_rules_for_group(SASDAIStudioNoModelManager)
+%get_rules_for_group(SASDAIStudioNoEconometrics)
+%get_rules_for_group(SASDAIStudioNoOptimization)
+%get_rules_for_group(SASDAIStudioNoMachineLearning)
+%get_rules_for_group(SASDAIStudioNoForecasting)
 
 /*
 * Clean up;

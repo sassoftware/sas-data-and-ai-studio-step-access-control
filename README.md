@@ -4,6 +4,8 @@
 
 SAS scripts that create identity groups and authorization rules in SAS Viya to restrict access to SAS Data and AI Studio Steps.
 
+For updates please refer to the [CHANGELOG.md](./CHANGELOG.md).
+
 ### Prerequisites
 
 In order to run the scripts you have to be part of the SAS Administrators group or have the ability to create new groups & authorization rules via a custom setup in your environment.
