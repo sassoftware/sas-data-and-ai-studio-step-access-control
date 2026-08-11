@@ -35,21 +35,22 @@ If you are running it with all the default custom groups than do the following:
 If you are using your own groups, instead of the provided custom groups, please follow this list:
 1. Create a list of the groups and map it against the list of groups that you can find in the table below. Note that a user should always be in one of the SASStudio* groups and then you can remove additional steps based on the other capabilities.
 
-  | **Custom Group**           | **Description**                                              | **Your Group** |
-  | -------------------------- | ------------------------------------------------------------ | -------------- |
-  | SASStudioNone              | Disables all Steps in SAS Studio for the user                |                |
-  | SASStudioBasic             | Enables the user to use the SAS Studio Basic Steps           |                |
-  | SASStudioAnalyst           | Enables the user to use the SAS Studio Analyst and SAS Studio Basic Steps |                |
-  | SASStudioEngineer          | Enables the user to use the SAS Studio Basic and SAS Studio Analyst and SAS Studio Engineer Steps |                |
-  | SASStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
-  | SASStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
-  | SASStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
-  | SASStudioNoQC              | Disables the Quality Control (QC) Steps for the user         |                |
-  | SASStudioNoModelManager    | Disables the Model Manager Steps for the user                |                |
-  | SASStudioNoEconometrics    | Disables the Econometrics Steps for the user                 |                |
-  | SASStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
-  | SASStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
-  | SASStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+  | **Custom Group**              | **Description**                                              | **Your Group** |
+  | ----------------------------- | ------------------------------------------------------------ | -------------- |
+  | SASDAIStudioNone              | Disables all Steps in SAS Data and AI Studio for the user    |                |
+  | SASSDAIStudio                 | Enables the user to use the SAS Data and AI Studio Basic Steps |                |
+  | SASDAIStudioAdavanced         | Enables the user to use the SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
+  | SASDAIStudioEnterprise        | Enables the user to use the SAS Data and AI Studio Enterprise and SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
+  | SASDAIStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
+  | SASDAIStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
+  | SASDAIStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
+  | SASDAIStudioNoQC              | Disables the Quality Control (QC) Steps for the user         |                |
+  | SASDAIStudioNoModelManager    | Disables the Model Manager Steps for the user                |                |
+  | SASDAIStudioNoEconometrics    | Disables the Econometrics Steps for the user                 |                |
+  | SASDAIStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
+  | SASDAIStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
+  | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+  | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the u                 |                |
 
 2. Now go ahead and adjust the *Create-SAS-Authorization-Rules-For-Steps.sas* (read the SAS program header carefully on how to do it). Then run this script.
 
