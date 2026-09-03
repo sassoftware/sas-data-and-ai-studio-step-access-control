@@ -2,7 +2,7 @@
 
 ## Overview
 
-SAS scripts that create identity groups and authorization rules in SAS Viya to restrict access to SAS Data and AI Studio Steps.
+SAS scripts that create identity groups and authorization rules in SAS Viya to restrict access to SAS Data and AI Studio Steps. For an overview of how this project works and how to use it, check out this [YouTube video]().
 
 For updates please refer to the [CHANGELOG.md](./CHANGELOG.md).
 
@@ -11,6 +11,10 @@ For updates please refer to the [CHANGELOG.md](./CHANGELOG.md).
 In order to run the scripts you have to be part of the SAS Administrators group or have the ability to create new groups & authorization rules via a custom setup in your environment.
 
 Please note this repository makes us of non-public SAS Viya REST API endpoints, these might change without prior notice and may break the provided code, if this occurs please raise an Issue on this repository.
+
+### Note
+
+This repository does not provide the ability to control access to the [Loop step](https://go.documentation.sas.com/doc/en/sasstudiocdc/default/webeditorcdc/webeditorflows/p1eadh8hc92nhln18xa92y9cq9ah.htm) which was released as part of SAS Data and AI Studio Enterprise in the 2026.08 Stable release.
 
 ## Installation
 
@@ -33,23 +37,25 @@ If you are running it with all the default custom groups than do the following:
 4. Add checking this repository for updates to your To-do list when updating your SAS Viya environment.
 
 If you are using your own groups, instead of the provided custom groups, please follow this list:
-1. Create a list of the groups and map it against the list of groups that you can find in the table below. Note that a user should always be in one of the SASStudio* groups and then you can remove additional steps based on the other capabilities.
+1. Create a list of the groups and map it against the list of groups that you can find in the table below. Note that a user should always be in one of the SASDAIStudio* groups and then you can remove additional steps based on the other capabilities.
 
   | **Custom Group**           | **Description**                                              | **Your Group** |
   | -------------------------- | ------------------------------------------------------------ | -------------- |
-  | SASStudioNone              | Disables all Steps in SAS Studio for the user                |                |
-  | SASStudioBasic             | Enables the user to use the SAS Studio Basic Steps           |                |
-  | SASStudioAnalyst           | Enables the user to use the SAS Studio Analyst and SAS Studio Basic Steps |                |
-  | SASStudioEngineer          | Enables the user to use the SAS Studio Basic and SAS Studio Analyst and SAS Studio Engineer Steps |                |
-  | SASStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
-  | SASStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
-  | SASStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
-  | SASStudioNoQC              | Disables the Quality Control (QC) Steps for the user         |                |
-  | SASStudioNoModelManager    | Disables the Model Manager Steps for the user                |                |
-  | SASStudioNoEconometrics    | Disables the Econometrics Steps for the user                 |                |
-  | SASStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
-  | SASStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
-  | SASStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+  | SASDAIStudioNone              | Disables all Steps in SAS Studio for the user                |                |
+  | SASDAIStudioBasic             | Enables the user to use the SAS Studio Basic Steps           |                |
+  | SASDAIStudioAnalyst           | Enables the user to use the SAS Studio Analyst and SAS Studio Basic Steps |                |
+  | SASDAIStudioEngineer          | Enables the user to use the SAS Studio Basic and SAS Studio Analyst and SAS Studio Engineer Steps |                |
+  | SASDAIStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
+  | SASDAIStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
+  | SASDAIStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
+  | SASDAIStudioNoQC              | Disables the Quality Control (QC) Steps for the user         |                |
+  | SASDAIStudioNoModelManager    | Disables the Model Manager Steps for the user                |                |
+  | SASDAIStudioNoEconometrics    | Disables the Econometrics Steps for the user                 |                |
+  | SASDAIStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
+  | SASDAIStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
+  | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+  | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+  | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the user              |                |
 
 2. Now go ahead and adjust the *Create-SAS-Authorization-Rules-For-Steps.sas* (read the SAS program header carefully on how to do it). Then run this script.
 
