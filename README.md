@@ -2,7 +2,7 @@
 
 ## Overview
 
-SAS scripts that create identity groups and authorization rules in SAS Viya to restrict access to SAS Data and AI Studio Steps. For an overview of how this project works and how to use it, check out this [YouTube video]().
+SAS scripts that create identity groups and authorization rules in SAS Viya to restrict access to SAS Data and AI Studio Steps. For a demonstration on the usage of this repository please check out [this YouTube video](https://youtu.be/_uhBo42TMBE).
 
 For updates please refer to the [CHANGELOG.md](./CHANGELOG.md).
 
@@ -39,12 +39,21 @@ If you are running it with all the default custom groups than do the following:
 If you are using your own groups, instead of the provided custom groups, please follow this list:
 1. Create a list of the groups and map it against the list of groups that you can find in the table below. Note that a user should always be in one of the SASDAIStudio* groups and then you can remove additional steps based on the other capabilities.
 
+<<<<<<< HEAD
   | **Custom Group**           | **Description**                                              | **Your Group** |
   | -------------------------- | ------------------------------------------------------------ | -------------- |
   | SASDAIStudioNone              | Disables all Steps in SAS Studio for the user                |                |
   | SASDAIStudioBasic             | Enables the user to use the SAS Studio Basic Steps           |                |
   | SASDAIStudioAnalyst           | Enables the user to use the SAS Studio Analyst and SAS Studio Basic Steps |                |
   | SASDAIStudioEngineer          | Enables the user to use the SAS Studio Basic and SAS Studio Analyst and SAS Studio Engineer Steps |                |
+=======
+  | **Custom Group**              | **Description**                                              | **Your Group** |
+  | ----------------------------- | ------------------------------------------------------------ | -------------- |
+  | SASDAIStudioNone              | Disables all Steps in SAS Data and AI Studio for the user    |                |
+  | SASSDAIStudio                 | Enables the user to use the SAS Data and AI Studio Basic Steps |                |
+  | SASDAIStudioAdavanced         | Enables the user to use the SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
+  | SASDAIStudioEnterprise        | Enables the user to use the SAS Data and AI Studio Enterprise and SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
+>>>>>>> 912b90f20ac30dc20d7db418ee22a8d519a5683b
   | SASDAIStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
   | SASDAIStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
   | SASDAIStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
@@ -54,8 +63,12 @@ If you are using your own groups, instead of the provided custom groups, please 
   | SASDAIStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
   | SASDAIStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
   | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
+<<<<<<< HEAD
   | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
   | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the user              |                |
+=======
+  | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the u                 |                |
+>>>>>>> 912b90f20ac30dc20d7db418ee22a8d519a5683b
 
 2. Now go ahead and adjust the *Create-SAS-Authorization-Rules-For-Steps.sas* (read the SAS program header carefully on how to do it). Then run this script.
 
