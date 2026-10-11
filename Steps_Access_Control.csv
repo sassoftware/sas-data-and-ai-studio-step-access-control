@@ -92,7 +92,7 @@ Register SAS Model,Imports a scoring model from SAS Studio into SAS Model Manage
 Same Birthday Probability,Computes the probability that two or more people in a room have the same birthday.,0,1,1,0,0,1,0,0,0,0,0,0,0
 Scatter Map,Creates a map that is overlaid with a scatter plot.,0,1,1,0,0,0,0,0,0,0,0,0,0
 Scatter Plot,Creates plots that show the relationships between two or three variables by revealing patterns or concentrations of data points,0,1,1,0,0,0,0,0,0,0,0,0,0
-Segmentation,Segments text data using k-means clustering.,0,1,1,1,0,0,0,0,0,0,0,0,0
+Segmentation,DEPRECATED and removed with SAS Viya 2006.09: Segments text data using k-means clustering.,0,1,1,1,0,0,0,0,0,0,0,0,0
 Select Random Sample,Creates an output table that contains a random sample of the rows in the input table.,0,1,1,0,0,0,0,0,0,0,0,0,0
 Semi-supervised Learning,Iteratively propagates the labels from the labeled data to the unlabeled data by computing the similarity measure between pairs of data.,0,1,1,0,0,0,0,0,0,0,1,0,0
 Series Map,Creates a map overlaid with series plot.,0,1,1,0,0,0,0,0,0,0,0,0,0
@@ -170,3 +170,4 @@ Mixed Models,"The Mixed Models step fits a variety of mixed linear models to dat
 Proportional Hazards Regression,"The Proportional Hazards Regression step fits proportional hazards regression models to survival data. These models include the widely used semi-parametric Cox regression model and its extensions, such as the shared frailty model and the Fine-Gray model. The step supports the analysis of data that might be left-censored, right-censored, or interval-censored",0,1,1,0,0,1,0,0,0,0,0,0,0
 Compare Data,"The Compare Data step compares two data sets or compares two variables within or across data sets",0,1,1,0,0,0,0,0,0,0,0,0,0
 Extract BW Metadata,"The Extract BW Metadata step enables you to select SAP BW metadata objects that you want to use as data sources in SAS Data and AI Studio. Examples include InfoCubes, DataStore Objects (DSOs), Advanced DataStore Objects (ADSOs), and Composite Providers",0,0,1,0,0,0,0,0,0,0,0,0,1
+Delete Rows,"You can use the Delete Rows step to delete all rows, truncate rows, or delete specific rows from a target table in a flow",0,0,1,0,0,0,0,0,0,0,0,0,0

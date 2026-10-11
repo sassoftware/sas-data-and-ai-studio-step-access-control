@@ -1,5 +1,10 @@
 # Changelog
 
+## SAS Viya 2026.09 Release
+
+- New step: Delete Rows
+- Added deprecation note for Segmentation Step is it was removed with SAS Viya 2026.09
+
 ## SAS Viya 2026.08 Release
 
 Added a note to the main [README](./README.md) that the Loop step can not be accessed controlled by this repository.
