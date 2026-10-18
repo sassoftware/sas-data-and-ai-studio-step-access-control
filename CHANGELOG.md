@@ -1,5 +1,9 @@
 # Changelog
 
+## SAS Viya 2026.10 Release
+
+- New step: Execute BW Query
+
 ## SAS Viya 2026.09 Release
 
 - New step: Delete Rows

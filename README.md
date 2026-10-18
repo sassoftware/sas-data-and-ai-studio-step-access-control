@@ -63,12 +63,7 @@ If you are using your own groups, instead of the provided custom groups, please 
   | SASDAIStudioNoOptimization    | Disables the Optimization Steps for the user                 |                |
   | SASDAIStudioNoMachineLearning | Disables the Machine Learning Steps for the user             |                |
   | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
-<<<<<<< HEAD
-  | SASDAIStudioNoForecasting     | Disables the Forecasting Steps for the user                  |                |
   | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the user              |                |
-=======
-  | SASDAIStudioNoSAPIntegration  | Disables the SAP Integration Steps for the u                 |                |
->>>>>>> 912b90f20ac30dc20d7db418ee22a8d519a5683b
 
 2. Now go ahead and adjust the *Create-SAS-Authorization-Rules-For-Steps.sas* (read the SAS program header carefully on how to do it). Then run this script.
 
