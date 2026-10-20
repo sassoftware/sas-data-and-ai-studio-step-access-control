@@ -39,21 +39,12 @@ If you are running it with all the default custom groups than do the following:
 If you are using your own groups, instead of the provided custom groups, please follow this list:
 1. Create a list of the groups and map it against the list of groups that you can find in the table below. Note that a user should always be in one of the SASDAIStudio* groups and then you can remove additional steps based on the other capabilities.
 
-<<<<<<< HEAD
   | **Custom Group**           | **Description**                                              | **Your Group** |
   | -------------------------- | ------------------------------------------------------------ | -------------- |
   | SASDAIStudioNone              | Disables all Steps in SAS Studio for the user                |                |
   | SASDAIStudioBasic             | Enables the user to use the SAS Studio Basic Steps           |                |
   | SASDAIStudioAnalyst           | Enables the user to use the SAS Studio Analyst and SAS Studio Basic Steps |                |
   | SASDAIStudioEngineer          | Enables the user to use the SAS Studio Basic and SAS Studio Analyst and SAS Studio Engineer Steps |                |
-=======
-  | **Custom Group**              | **Description**                                              | **Your Group** |
-  | ----------------------------- | ------------------------------------------------------------ | -------------- |
-  | SASDAIStudioNone              | Disables all Steps in SAS Data and AI Studio for the user    |                |
-  | SASSDAIStudio                 | Enables the user to use the SAS Data and AI Studio Basic Steps |                |
-  | SASDAIStudioAdavanced         | Enables the user to use the SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
-  | SASDAIStudioEnterprise        | Enables the user to use the SAS Data and AI Studio Enterprise and SAS Data and AI Studio Advanced and SAS Data and AI Studio Steps |                |
->>>>>>> 912b90f20ac30dc20d7db418ee22a8d519a5683b
   | SASDAIStudioNoTextAnalytics   | Disables the Text Analytics Steps for the user               |                |
   | SASDAIStudioNoDecisioning     | Disables the Intelligent Decisioning Steps for the user      |                |
   | SASDAIStudioNoStatistics      | Disables the Visual Statistics Steps for the user            |                |
